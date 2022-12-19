@@ -1,0 +1,14 @@
+{
+  "name": "jankengame",
+  "version": "1.0",
+  "license": "UNLICENSED",
+  "main": "src/window.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  }
+}
